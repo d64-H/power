@@ -47,9 +47,7 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.markdown("<h2 style='text-align: center;'>🌌 我的赛博桌面</h2>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; color: gray;'>点击图标直接进入你的专属应用</p>", unsafe_allow_html=True)
-
+st.markdown("<h2 style='text-align: center;'>🌌 Nexus</h2>", unsafe_allow_html=True)
 # 你的所有 App 数据（以后你可以写个页面让 AI 帮你自动生成这个列表）
 # 这里的 url 先放百度和你的本地 Streamlit 为例
 apps = [
