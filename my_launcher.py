@@ -1,8 +1,11 @@
 import streamlit as st
-import json
 import os
 
-st.set_page_config(page_title="Nexus", page_icon="🌌", layout="centered")
+# 告诉网页去用你上传的图标
+if os.path.exists("favicon.ico"):
+    st.set_page_config(page_title="Nexus", page_icon="favicon.ico", layout="centered")
+else:
+    st.set_page_config(page_title="Nexus", page_icon="🌌", layout="centered")
 
 # 隐藏 Streamlit 自带的顶栏和菜单，让它看起来更像一个独立的 App
 hide_st_style = """
